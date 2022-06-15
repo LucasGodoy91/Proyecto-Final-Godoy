@@ -1,0 +1,113 @@
+/* ESTILOS DEL HTML */
+
+.title-form { 
+    color: white;
+}
+
+.contenedor-modal .formulario {
+    display: block;
+    max-width: 100%;
+    padding: 30px 50px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 20%);
+    text-align: center;
+}
+
+.contenedor-modal {
+    pointer-events: none;
+}
+
+.contenedor-modal {
+    display: flex;
+    z-index: 100000;
+    background-color: rgba(0, 0, 0, 0.3);
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+   
+    
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    transition: opacity 0.3s ease;
+    display: none;
+}
+
+
+
+.registrarUsuario{
+    display: flex;
+    flex-direction: column;
+    gap: 1 rem;
+}
+
+.cartas {
+    padding-top: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.show {
+    pointer-events: auto;
+    display:block;
+}
+
+.contenedor-form{
+  
+    display: flex;
+    flex-direction: column;
+    background-color: #0a0b0c;
+    color: white;
+    max-width: 35rem;
+    max-height: 90rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 3rem;
+    border-radius: 40px;
+}
+
+.contenedor-modal .registrarse:hover {
+    cursor: pointer;
+    background: #fa1414;
+    color: #000; }
+
+
+    /*    ESTILOS GENERALES DEL FOOTER     */
+    footer {
+        font-size: 15px;
+        padding-top: 100px;
+        background-color: #181515;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        footer h3 {
+        color: white;
+          font-size: 20px; }
+        footer .line {
+          border-top-style: ridge;
+          width: 50%;
+          height: 1px;
+          padding-bottom: 20px; }
+        footer .logos {
+          width: 30px; }
+        footer .email {
+          padding-bottom: 20px; }
+        footer h4 {
+            color: white;
+          font-size: 20px; }
+        footer .containerFooter {
+          text-align: center; }
+          footer .containerFooter .linkIg {
+            text-decoration: none;
+            text-align: center;
+            color: white; }
+          footer .containerFooter .derechos {
+            font-size: 10px;
+            padding-top: 20px; }
+      
+      /*   FIN DE ESTILOS GENERALES DEL FOOTER     */
+
